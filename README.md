@@ -12,7 +12,7 @@ At present, this is the *bare* minimum so use with caution.
 
 ## Running
 
-1. Run ```nmp start``` and cross your fingers
+1. Run ```npm start``` and cross your fingers
 
 ## Aftermath
 
