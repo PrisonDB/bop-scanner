@@ -7,26 +7,20 @@
   "bugs": "https://github.com/prisondb/bop-scanner/issues",
   "repository": {
     "type": "git",
-    "url": "https://github.com/acao/bop-scanner"
+    "url": "https://github.com/prisondb/bop-scanner"
   },
   "license": "MIT",
   "files": [
     "lib"
   ],
   "keywords": [],
-  "devDependencies": {
-    "grunt-contrib-jshint": "^0.10.0",
-    "grunt-contrib-nodeunit": "^0.3.3",
-    "grunt-contrib-watch": "^0.6.1",
-    "load-grunt-tasks": "^0.4.0",
-    "time-grunt": "^0.3.1",
-    "jshint-stylish": "^0.2.0"
-  },
+  "devDependencies": {},
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
     "async": "~0.9.0",
+    "lodash": "~2.4.1",
     "mongodb": "~1.4.5",
     "superagent": "~0.18.0",
     "superagent-prefix": "0.0.2"
