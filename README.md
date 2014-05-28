@@ -23,6 +23,7 @@ Your local mongo database will have a db called bop_scanner with a locations_ind
 1. Turn into a full API client utility, or create one that this depends on
 2. Command Line tool? Or just use gulp
 3. Unit tests
+4. Use async.waterfall to build an array of response objects to upsert all at once, thus handle errors better than a foreach loop. Otherwise use a while loop that handles exceptions better.
 
 ## License
 Copyright (c) 2014 PrisonDB. Licensed under the MIT license.
